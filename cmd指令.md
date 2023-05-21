@@ -29,7 +29,7 @@
 
 + ## 查看連接過的wifi密碼
     ```
-    netsh wlan show profile name="ID"
+    netsh wlan show profile name="ID" key=clear
     ID就是你要找密碼的ID
     ```
 
